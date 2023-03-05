@@ -1,0 +1,14 @@
+<h1>JavaScript Strings</h1>
+<h2>The charAt() Method</h2>
+
+<p>charAt() returns the character at a specified index (position) in a string.</p>
+<p>Get the third character in a string:</p>
+<p id="demo"></p>
+
+<script>
+let text = "PREM";
+let letter = text.charAt(2);
+document.getElementById("demo").innerHTML = letter;
+
+
+</script>
